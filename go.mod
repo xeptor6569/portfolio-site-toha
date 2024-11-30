@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/xeptor6569/portfolio-site-toha
 
 go 1.21
 

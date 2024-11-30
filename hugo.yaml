@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+# baseURL: https://hugo-toha.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Cameron's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -68,7 +68,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/xeptor6569/portfolio-site-toha
   # Default branch of your Git repo
   gitBranch: main
 
@@ -153,11 +153,11 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
-      services:
+      enabled: false
+      #services:
         # Google Analytics
-        google:
-          id: G-H4LBG7NDFZ
+        #google:
+         # id: G-H4LBG7NDFZ
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
@@ -274,7 +274,7 @@ params:
     
     # Number of posts to show to each page. Default is "12"
     pagination:
-       maxPostsPerPage: 12
+      maxPostsPerPage: 12
 
 
   # Provide footer configuration.
