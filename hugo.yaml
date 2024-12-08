@@ -1,6 +1,6 @@
 # baseURL: https://hugo-toha.github.io
 
-languageCode: en
+languageCode: en-US
 title: "Cameron's Blog"
 
 # Use Hugo modules to add theme
@@ -21,7 +21,7 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageCode: en
+    languageCode: en-US
     languageName: English
     title: "Cameron's Blog"
     weight: 1
@@ -58,14 +58,14 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/background-vectors.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/c-logo.png # main-logo.png
+    inverted: /images/site/c-logo-dark.png # inverted-logo.png
+    favicon: /images/site/c-favicon.png # favicon.png
 
   # GitHub repo of your site
   gitRepo: https://github.com/xeptor6569/portfolio-site-toha
@@ -197,9 +197,9 @@ params:
     flags:
       enable: true
       # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      flagOverwrites:
+         - languageCode: en
+           countryCode: us
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
